@@ -76,7 +76,7 @@ for content in t:
 
 plt.plot(t, y_square_wave)
 plt.grid(True)
-iff(x)
+diff_x = np.diff(x)
 diff_y = np.diff(y)
 slope = np.diff(y)/np.diff(x)
 
